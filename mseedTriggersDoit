@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+#
+# Runs doit*.sh scripts accumulated by mseedTroggers cron job
+#
+# R.C. Stewart, 2024-10-09
+
+for i in doit*.sh
+do
+    echo ${i}
+    ./${i}
+done
+

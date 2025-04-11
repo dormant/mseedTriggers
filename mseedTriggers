@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+# 
+# Runs mseedTriggers.py under proper conda environment
+
+source /home/seisan/anaconda3/etc/profile.d/conda.sh
+conda activate obspy
+
+/home/seisan/src/mseedTriggers/mseedTriggers.py "$@"
+
