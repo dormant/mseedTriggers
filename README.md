@@ -2,7 +2,10 @@
 
 Runs STA/LTA trigger on miniseed files.
 
-makeMontages.sh
+## makeMontages.sh
+
+* Script to create montages of plots created by *mseedTriggersDoit*.
+* Should run once a day as a cron jon on *opsproc3*. Currently disabled because of resource limitations.
 
 ## mseedTriggers, mseedTriggers.py
 
@@ -20,7 +23,7 @@ makeMontages.sh
 
 * Runs *doit\*.sh* shell scripts created by *mseedTriggers.py*.
 * Runs once a day as a cron job on *opsproc3*.
-* Stores results in */homne/seisan/tmp--DONT_USE/mseedTriggers*.
+* Stores results in */home/seisan/tmp--DONT_USE/mseedTriggers*.
 
 ## plotTriggers.m
 
@@ -33,7 +36,7 @@ makeMontages.sh
 ## triggerList2DoIt.pl
 
 * Create commands to run getnPlot for each event listed in */home/seisan/tmp--DONT_USE/mseedTriggers/triggerLists/mseed_trigger_list-MSS1.txt*.
-* Pipe output to *doit.sh* and make it runnagle.
+* Pipe output to *doit.sh* and make it runnable.
 
 ## Author
 
