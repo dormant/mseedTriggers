@@ -1,5 +1,7 @@
 # mseedTriggers
 
+## ~/src/mseedTriggers
+
 Runs STA/LTA trigger on miniseed files.
 
 ## makeMontages.sh
